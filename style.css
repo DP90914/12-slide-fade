@@ -35,17 +35,25 @@ body{
 }
 
 @keyframes slider {
-    0%, 33% {
-        background-image: url(./img/olhos-gato.jpg);
-        --text-description: "Olhos de gato!"
+    0%, 20% {
+        background-image: url(./img/alcool_em_gel.jpeg);
+        --text-description: "limpar as maos"
     }
-    34%, 66% {
-        background-image: url(./img/olhos-cachorro.jpg);
-        --text-description: "Olhos de cachorro!"
+    21%, 40% {
+        background-image: url(./img/bebedouro.jpeg);
+        --text-description: "hidratação"
     }
-    67%, 100% {
-        background-image: url(./img/olhos-aguia.jpg);
-        --text-description: "Olhos de aguia!"
+    41%, 60% {
+        background-image: url(./img/cantina.jpeg);
+        --text-description: "Matar a fome"
+    }
+    61%, 80% {
+        background-image: url(./img/pia.jpeg);
+        --text-description: "lavar a marmita"
+    }
+    81%, 100% {
+        background-image: url(./img/tv.jpeg);
+        --text-description: "distração"
     }
 }
 @keyframes fade {
